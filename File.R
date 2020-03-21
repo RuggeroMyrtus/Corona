@@ -19,7 +19,7 @@ library(ggrepel)
 library(gapminder)
 library(personalized)
 #loading files
-setwd("C:/Users/rugge/Desktop/Project/R studio/COVID19")
+setwd("")
 dati=read.csv2("COVID-19-geographic-disbtribution-worldwide-2020-03-20.csv")
 coordinate=read.csv2("paesi2.csv")
 str(dati)
@@ -73,7 +73,7 @@ map = world +
   labs(title = "Day: {frame_time}")+
   scale_size_continuous(breaks = c(5, 1000, 5000, 10000))
 animate(map, fps=10, width = 1000, height = 800) #first check rendering
-setwd("C:/Users/rugge/Desktop")
+setwd("")
 animate(map, fps=30, width = 1920, height = 1080, duration=30, gifski_renderer())
 anim_save("Covid19-Prova.mp4")
 #write.csv2(data, file = "data_finali.csv")
