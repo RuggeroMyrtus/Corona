@@ -1,4 +1,4 @@
-# corona
+#SARS-CoV-2
 #libraries
 #install.packages(c("gganimate", "readr", "dplyr", "ggplot2", "maps",
 #                   "ggthemes", "tibble", "lubridate", "DT", "viridis", "purrr", "magick", "ggmap",
